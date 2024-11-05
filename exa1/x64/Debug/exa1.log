@@ -1,0 +1,4 @@
+﻿  exa1Dlg.cpp
+C:\Users\7_1\Desktop\수강생\이다혜\exa1\exa1Dlg.cpp(192,46): error C2065: 'm_szTitle': 선언되지 않은 식별자입니다.
+  (소스 파일 '/exa1Dlg.cpp'을(를) 컴파일하는 중)
+  
