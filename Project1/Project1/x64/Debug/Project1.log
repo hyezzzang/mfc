@@ -1,7 +1,5 @@
-﻿  test1.cpp
-C:\Users\sw4_2\Desktop\수강생101\이다혜\Project1\test1.cpp(9,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
-C:\Users\sw4_2\Desktop\수강생101\이다혜\Project1\test1.cpp(21,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\sw4_2\Desktop\수강생101\이다혜\Project1\test1.cpp(11,15): warning C4101: 'value' :참조되지 않은 지역 변수입니다.
-C:\Users\sw4_2\Desktop\수강생101\이다혜\Project1\test1.cpp(53,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\sw4_2\Desktop\수강생101\이다혜\Project1\test1.cpp(79,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  Project1.vcxproj -> C:\Users\sw4_2\Desktop\수강생101\이다혜\Project1\x64\Debug\Project1.exe
+﻿  main2.cpp
+C:\Users\7_1\Desktop\수강생\이다혜\Project1\main2.cpp(4,6): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\7_1\Desktop\수강생\이다혜\Project1\main2.cpp(25,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\7_1\Desktop\수강생\이다혜\Project1\main2.cpp(32,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Project1.vcxproj -> C:\Users\7_1\Desktop\수강생\이다혜\Project1\x64\Debug\Project1.exe

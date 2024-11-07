@@ -127,12 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="test1.cpp" />
-    <ClCompile Include="test2.cpp" />
+    <ClCompile Include="CQueue.cpp" />
+    <ClCompile Include="CStack.cpp" />
+    <ClCompile Include="main1.cpp" />
+    <ClCompile Include="main2.cpp" />
+    <ClCompile Include="main3.cpp" />
+    <ClCompile Include="testStack.cpp" />
+    <ClCompile Include="testQueue.cpp" />
     <ClCompile Include="스택.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="큐.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CQueue.h" />
+    <ClInclude Include="CStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
