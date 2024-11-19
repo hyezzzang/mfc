@@ -129,7 +129,12 @@
   <ItemGroup>
     <ClCompile Include="2.cpp" />
     <ClCompile Include="3.cpp" />
+    <ClCompile Include="CRect.cpp" />
     <ClCompile Include="시프트연산.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPoint.h" />
+    <ClInclude Include="CRect.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
