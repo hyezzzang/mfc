@@ -17,5 +17,7 @@ public:
 	//Ãß°¡
 	bool ptInRect(CPoint pt);
 
+	bool intersectRect(CRect other);
+
 };
 

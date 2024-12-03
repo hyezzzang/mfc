@@ -30,24 +30,22 @@ int CRect::getArea() {	//넓	이
 }
 
 bool CRect::ptInRect(CPoint pt) {
-	//if (pt.x < abs(ePt.x - sPt.x) && pt.y < abs(ePt.y - sPt.y))
-
-	int max;
-	int min;
-		if (ePt.x < sPt.x) {
-			max = sPt.x;
-			min = ePt.x;
-		}
-		else {
-			max = ePt.x;
-		}
-	
-
-
-		return true;  //1
-	else
-		return false;  //0
+	if (sPt.x <= pt.x && pt.x<= ePt.x && sPt.y <= pt.y && pt.y <= ePt.y) {
+		return true; //1
+	}
+	else return false; //0
 }
+
+bool CRect::intersectRect(CRect other) {
+	//spt 가 원래 나 other 이 비교군
+	if (sPt.x < other.ePt.x && sPt.y < !other.ePt.y)
+	{
+		
+	}
+
+}
+
+
 
 
 

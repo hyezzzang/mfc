@@ -38,7 +38,7 @@ using namespace std;
 
 int main()
 {
-	CRect rect;
+	CRect rect, other;
 	CPoint startPT, endPT ,inPT;
 	cout << "½ÃÀÛ ÁÂÇ¥ÀÔ·Â : ";  //printf
 	cin >> startPT.x >> startPT.y;  //scanf
@@ -57,6 +57,12 @@ int main()
 
 	//rect.ptInRect(inPT);
 	cout << "³×¸ð ¾È¿¡ : " << rect.ptInRect(inPT) << endl;
+
+	//rect.intersectRect(CRect other)
+	cout << "³×¸ð¶û °ãÄ¡´Â ³×¸ð ÀÔ·Â : ";
+	cin >> other;
+
+	cout << "³×¸ð¶û °ãÃÄ : " << rect.intersectRect(other) << endl;
 
 }
 
