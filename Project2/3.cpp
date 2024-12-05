@@ -59,10 +59,22 @@ int main()
 	cout << "네모 안에 : " << rect.ptInRect(inPT) << endl;
 
 	//rect.intersectRect(CRect other)
-	cout << "네모랑 겹치는 네모 입력 : ";
-	cin >> other;
+	cout << "네모랑 겹치는 시작 좌표입력 : ";
+	cin >> startPT.x >> startPT.y;  // 다시 scanf 재사용!!
+	cout << "네모랑 겹치는 끝 좌표입력 : ";
+	cin >> endPT.x >> endPT.y;
 
+	other.setLocation(startPT, endPT);
 	cout << "네모랑 겹쳐 : " << rect.intersectRect(other) << endl;
+
+
+	//네모가 rect 네모랑 other 네모랑 두개 있어
+	//지금 이미 rect 네모는 시작이랑 끝이 있는 상태이고 (네모상태)
+	//내가 지금 other 네모의 시작이랑 끝을 다시 setLocation해서
+	//rect네모랑 other네모랑 비교해야해
+
+	//other 셋로케이션 했으니까 rect의x 랑 other의 x랑 비교해서
+	//겹치려면 rect 시작점보다 작으면 안되고 끝점보다 크면 안돼
 
 }
 

@@ -37,12 +37,12 @@ bool CRect::ptInRect(CPoint pt) {
 }
 
 bool CRect::intersectRect(CRect other) {
-	//spt 가 원래 나 other 이 비교군
-	if (sPt.x < other.ePt.x && sPt.y < !other.ePt.y)
-	{
-		
+	// 두 직사각형이 겹치는지 확인하는 조건
+	if (ePt.x < other.sPt.x || sPt.x > other.ePt.x ||   // 하나가 다른 직사각형의 왼쪽/오른쪽에 위치
+		ePt.y < other.sPt.y || sPt.y > other.ePt.y) {   // 하나가 다른 직사각형의 위쪽/아래쪽에 위치
+		return false; //1
 	}
-
+	return true; //0
 }
 
 

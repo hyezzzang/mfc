@@ -6,6 +6,7 @@ public:
 	CPoint sPt;
 	CPoint ePt;
 
+
 	void setLocation(CPoint a, CPoint b);
 
 	int getWidth();
